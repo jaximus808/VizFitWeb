@@ -47,10 +47,10 @@ export default function Home() {
             <div className='h-full flex items-center justify-center relative z-20'>
               <div className='text-left p-12'>
                 <h3 className='leading-snug text-7xl text-[#eaa80c] font-bold text-white'>
-                    Real Time Form Feed Back
+                    Workout Technique Advice with AI
                 </h3>
                 <h3 className='mt-4 text-2xl'>
-                VizFit harnesses the power of cutting-edge computer vision with your smartphone's camera and provides real-time feedback on your exercise form, helping you achieve perfect movements and prevent injuries.
+                VizFit harnesses the power of cutting-edge computer vision with your smartphone's camera and provides real-time feedback on your exercise form. Experience faster gains and minimize the risk of injury with AI-Assisted proper form!
                 </h3>
               </div>
             </div>
@@ -64,8 +64,8 @@ export default function Home() {
             </div>
             <div className='h-full flex items-center justify-center relative z-20'>
               <div className='text-left p-12'>
-                <h3 className='leading-snug text-6xl text-[#eaa80c] font-bold text-white'>
-                    Everything You Need From a Fitness App
+                <h3 className='leading-snug text-7xl text-[#eaa80c] font-bold text-white'>
+                    Everything You Need in One App
                 </h3>
                 <h3 className='mt-4 text-2xl'>
                   VizFit is everything you need when maximizing the gym. VizFit allows you to choose from different workout plans that suits your goals. VizFit also allows you to track your calories along side your workout plan and automatically calculates your target calorie goal.
@@ -75,15 +75,15 @@ export default function Home() {
           
           
         </div>
-        <div className='border-[#DCB13C] grid grid-cols-2 bg-[#171717] w-screen h-[35rem]'>
+        {/* <div className='border-[#DCB13C] grid grid-cols-2 bg-[#171717] w-screen h-[35rem]'>
             
           <div className='h-full flex items-center justify-center relative z-20'>
             <div className='text-left p-12'>
-              <h3 className='leading-snug text-6xl text-[#eaa80c] font-bold text-white'>
-                Automatic Budgeting at Your Finger Tips
+              <h3 className='leading-snug text-7xl text-[#eaa80c] font-bold text-white'>
+                Automatically Track Your New Limits!
               </h3>
               <h3 className='mt-4 text-2xl'>
-                Tsant Finances will attempt to best categorize each expidenture into its budget category! Allowing you to track your spending and budget effortlessly!
+                Take a short quiz to get a starting level of fitness and what your goals are. Then as VizFit helps maximize your workouts with your chosen program, these programs will keep track of the new heights you've reached right form the app!
               </h3>
             </div>
           </div>
@@ -91,7 +91,24 @@ export default function Home() {
 
           </div>
             
-        </div>
+        </div> */}
+        <div className='border-[#DCB13C] grid grid-cols-2 bg-[#171717] w-screen h-[35rem]'>
+            
+            <div className='h-full flex items-center justify-center relative z-20'>
+              <div className='text-left p-12'>
+                <h3 className='leading-snug text-7xl text-[#eaa80c] font-bold text-white'>
+                    A Fitness App For Anyone!
+                </h3>
+                <h3 className='mt-4 text-2xl'>
+                  Take a short quiz of what your fitness goals are and VizFit will offer different programs to reach these goals! From bodybuilding to simply losing weight, VizFit is an app that caters to individuals at all fitness levels and empowers them to achieve their unique health and fitness goals!
+                </h3>
+              </div>
+            </div>
+            <div>
+  
+            </div>
+              
+          </div> 
         
 
         <div className='border-[#DCB13C] bg-gradient-to-br from-[#EBD14D] to-[#EB874D] w-screen h-[30rem]'>
@@ -99,7 +116,7 @@ export default function Home() {
           <div className='h-full flex items-center justify-center relative z-20'>
             <div className='text-center p-12'>
               <h3 className='leading-snug text-6xl text-[#171717] font-bold'>
-                Ready To Start Your Financial Journey?
+                Start Your Fitness Journey with AI Today! 
               </h3>
               <button className='mt-4 text-4xl font-bold bg-black  px-[16px] py-[24px] rounded-xl duration-100  hover:shadow-2xl hover:text-[#EBD14D] hover:-translate-y-[2px] ' onClick={()=>
               {
@@ -110,11 +127,10 @@ export default function Home() {
               
               </button>
               <h3 className='text-2xl mt-4 text-black  '>or</h3>
-              <Link href={"pricing"}>
-                <h3 className='underline mt-4 text-2xl text-black'>
+                <Link className='underline mt-6 text-2xl text-black hover:text-[#2e2e2e]' href={"pricing"}>
+                
                     View Our Different Pricings Here!
-                  </h3>
-              </Link>
+                </Link>
             </div>
           </div>
           

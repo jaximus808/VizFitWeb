@@ -11,7 +11,7 @@ export default function Footer()
         <div className='w-full h-[25rem] py-12  px-24 bg-[#141414] text-white grid grid-rows-4'>
             <div>
                 <h3 className='font-bold text-3xl'>
-                    Tsant Finance
+                    VizFitness
                 </h3>
             </div>
             
