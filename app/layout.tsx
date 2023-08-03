@@ -1,16 +1,16 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
 
 import { Raleway } from 'next/font/google'
- 
+
 const raleway = Raleway({
-  weight: '400',
+  weight: ['400', '700'],
+  style: ['normal', 'italic'],
   subsets: ['latin'],
+  display: 'swap',
   variable: '--font-raleway'
 })
+
  
 export const metadata: Metadata = {
   title: 'Form Fit AI',
@@ -24,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html className={`${raleway.className}`} lang="en">
-      <body >{children}</body>
+      <body className='leading-normal'>{children}</body>
     </html>
   )
 }

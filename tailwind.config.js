@@ -10,7 +10,6 @@ module.exports = {
       fontFamily:{
         'raleway': ['var(--font-raleway)']
       },
-      
     },
   },
   plugins: [],
